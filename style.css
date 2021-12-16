@@ -1,0 +1,204 @@
+body{
+    background-color: #eeeeee;
+    position: relative;
+}
+
+
+/* INICIO DEL HEADER */
+
+.Header{
+    width: 100%;
+    height: 85vh;
+    /*
+    background-image: linear-gradient(180deg, #969797, #009cfd41 100%), url(../img/fondo.jpg);
+    */
+    background-color: #22c2c3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-dark {
+    background-color: #393e46 !important;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.bg-dark1{
+    background-color: #393e46;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 2px solid #fdbb2d;
+}
+
+@media (min-width: 768px){
+    .bg-dark{
+        background-color: transparent !important;
+    }
+}
+
+.navbar a{
+    color: white !important;
+    text-align: center;
+    font-size: 23px;
+    padding: 4px 15px;
+}
+
+.navbar a:hover{
+    background: linear-gradient(160deg, #22c2c3 0%, #fdbb2d 100%);
+    border-radius: 5%;
+}
+
+.Text-hero{
+    height: 550px;
+    color: #fff;
+    padding-top: 190px;
+}
+
+.Text-hero h3, h5{
+    font-size: 70px;
+    letter-spacing: .2em;
+    font-weight: bold;
+    display: flex;
+}
+.Text-hero a{
+    color: #fff;
+    font-size: 23px;
+    padding: 5px 10px;
+    text-decoration: none;
+    /* border-radius: 5px; */
+    background: linear-gradient(160def, #22c3c3bb 0%, #fdbb2db0 100%);
+}
+.Text-hero a:hover{
+    background: linear-gradient(160deg, #22c2c3bb 0%, #fdbb2db0 100%);
+}
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/* FIN DEL HEADER */
+
+/* INICIO PERFIL */
+
+.Perfil{
+    background-color: #e8e4e1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.Perfil h1{
+    font-size: 50px;
+    padding-bottom: 13px;
+}
+.Perfil h3{
+    font-size: 35px;
+    padding-bottom: 13px;
+    letter-spacing: 7px;
+}
+.Perfil p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Fin Perfil */
+
+/* Inicio Galeria */
+
+.Galeria{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #f5f5f5;
+    background-color: #393e46;
+}
+.Galeria h2{
+    font-size: 50px;
+    padding-bottom: 7px;
+}
+.Galeria h4{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.Galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 3px;
+    transition: 0.2s linear;
+}
+.Galeria .col-lg-4:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+    z-index: 1;
+}
+
+.Galeria .row img{
+    width: 100%;
+    height: 250px;
+}
+
+/* Fin Galeria */
+
+/* Inicio Contacto */
+
+.Contacto {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.Contacto h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.Contacto input{
+    margin-bottom: 23px;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    border-bottom: 1px solid #313848;
+}
+
+.Contacto textarea{
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 1px solid #313848;
+    box-shadow: none !important;
+    min-height: 150px;
+    max-height: 150px;
+    width: 100%;
+    resize: vertical;
+}
+
+.Contacto a{
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 15px;
+    text-align: center;
+    background: linear-gradient(160deg, #22c3c3bb 0%, #fdbb2db0 100%);
+    text-decoration: none;
+}
+.Contacto a:hover{
+    background: linear-gradient(160deg, #22c3c3f6 0%, #fdbb2df1 100%);
+}
+
+/*Fn de Contacto */
+
+/* Inicio Footer */
+
+.Foot {
+    background: linear-gradient(160deg, #22c3c3f6 0%, #fdbb2df1 100%)
+}
+.Foot h4{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 0;
+    overflow: hidden;
+}
